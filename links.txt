@@ -4,3 +4,4 @@ a cafeteria             acafeteria.html
 cardapio                cardapio.html
 contato                 contato.html
 localização             localização.html
+.
