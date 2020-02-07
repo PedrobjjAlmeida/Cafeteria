@@ -58,3 +58,24 @@ nav ul li a:hover {
   color: rgb(32, 184, 113);
   padding-left: 10px;
 }
+
+/* Criação da formatação do rodapé(footer) */
+footer {
+  background-color: rgba(34, 23, 17);
+  text-align: center;
+  color: rgba(137, 94, 3);
+  font-family: "Italianno", cursive;
+  padding-top: 10px;
+}
+
+div ul li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 30px;
+}
+
+div a {
+  color: rgba(6, 7, 97, 0.8);
+  text-decoration: none;
+}
