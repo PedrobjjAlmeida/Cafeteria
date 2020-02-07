@@ -1,0 +1,60 @@
+* {
+  margin: 0; /*zerar na margem externa dos elementos*/
+  padding: 0; /*zerar a margem interna dos elementos */
+}
+header {
+  /* Vamos adicionar uma imagem de fundo ao cabeçalho */
+  background-image: url("../img/cafeteria5.jpg");
+  background-position: 0px -350px;
+  height: 300px;
+  transition: ease 1.5s;
+}
+h1 {
+  color: rgb(16, 172, 159);
+  text-align: center;
+  font-family: "Parisienne", cursive;
+  font-size: 40pt;
+  padding-top: 90px;
+  text-shadow: 5px 5px 10px rgba(219, 13, 13, 0.719);
+}
+/* Vamos formatar os elementos de li para ficar
+um ao lado do outro com o comando display */
+nav ul li {
+  /* Dispor os links um ao lado do outro */
+  display: inline-block;
+  border: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* Alinhar os elementos de link ao centro usando
+text-align:center do nav, assim tudo que estiver
+dentro do nav irá para o centro */
+nav {
+  text-align: center;
+  margin-top: 100px;
+  /* A cor utilizada para o fundo da nav foi rgba, que
+  significa red green e alpha(transparência), onde
+  o valor mais próximo do 0(zero) é totalmente transparente e 
+  quanto mas próximo do 1 é totalmente sólido. Neste caso 
+  estamos usando 80% de solidez, ou seja, aplicanos
+  20% de transparência */
+  background-color: rgba(6, 7, 97, 0.8);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+nav ul li a {
+  color: rgb(255, 255, 255);
+  /* Para alinhar o sublinhado(underline) dos links
+  utilizaremos o comando text-decoration com o valor
+  none(nenhum) */
+  text-decoration: none;
+  font-family: "Reenie Beanie", cursive;
+  /* Aplicação de negrito a letra */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: rgb(32, 184, 113);
+  padding-left: 10px;
+}
